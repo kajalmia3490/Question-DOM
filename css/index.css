@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+.pic img{
+    width: 100%;
+    height: 300px;
+}
+
+marquee {
+    font-weight: bold;
+}
+
+.search-box {
+    padding: 10px 200px 10px 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: large;
+    border-radius: 5px;
+    border-bottom: 2px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+}
+
+ul li {
+    display: inline-flex;
+    padding: 10px;
+    align-items: center;
+    font-size: large;
+    margin: 10px 30px 10px 30px;
+}
+
+.sub-nav a {
+    display: none;
+}
+
+ul {
+    margin-bottom: 50px;
+}
+
+vr {
+    font-size: 30px;
+    color: rgb(163, 159, 159);
+}
+
+ul li:hover {
+    color: white;
+    border-radius: 5px;
+    background-color: tomato;
+    transition: .5s;
+}
+
+.home-nav {
+    color: white;
+    background-color: tomato;
+    border-radius: 5px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px 50px 100px;
+}
+
+.left-container {
+    text-align: center;
+}
+
+.left-side {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.question-logo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.message-logo img {
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.right-container img {
+    width: 100%;
+    height: 400px;
+    border-radius: 30px;
+}
+
+.right-container {
+    text-align: center;
+    margin-left: 50px;
+}
+
+.p-text {
+    margin-top: 20px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+span {
+    font-weight: bold;
+}
+
+.last-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.right img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.left {
+    margin-right: 100px;
+}
+
+.rules li {
+    display: block;
+    color: white;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.rules .second {
+    color: white;
+    background-color: tomato;
+}
+
+.end {
+    background-color: gray;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    font-size: small;
+    font-weight: bold;
+}
